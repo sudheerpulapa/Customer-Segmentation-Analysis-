@@ -4,18 +4,13 @@
 
 The aim of this project is to perform a Customer Segmentation Analysis for an Automobile bike Company using an RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach that groups customers into segments based on their previous purchase transactions. The project involves dividing the customer segment into 11 groups to determine which segments should be targeted to enhance sales revenue. A **Sales Dashboard for Customer Segmentation** has been developed using **Tableau**, and data quality assessment and analysis are conducted using **Python**.
 
-## Tableau Dashboard
-
-The Sales Dashboard for Customer Segmentation can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard).  
-![Sales Dashboard](data%20visualization/Sales%20Dashboard.gif)
-
 **Note**: In case of difficulty loading Jupyter Notebooks on GitHub, you can view the notebooks on nbviewer by clicking on the respective hyperlinks.
 
-- [RFM Analysis.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Data-Analytics-Customer-Segmentation/blob/master/RFM%20Analysis.ipynb)
-- [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Data-Analytics-Customer-Segmentation/blob/master/DQA%20and%20Data%20Cleaning%20CustomerDemographic.ipynb)
-- [DQA and Data Cleaning NewCustomerList.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Data-Analytics-Customer-Segmentation/blob/master/DQA%20and%20Data%20Cleaning%20NewCustomerList.ipynb)
-- [DQA and Data Cleaning Transactions.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Data-Analytics-Customer-Segmentation/blob/master/DQA%20and%20Data%20Cleaning%20Transactions.ipynb)
-- [DQA and Data Cleaning Customer Address.ipynb](https://nbviewer.jupyter.org/github/AbhishekGit-hash/Data-Analytics-Customer-Segmentation/blob/master/DQA%20and%20Data%20Cleaning%20Customer%20Address.ipynb)
+- [RFM Analysis.ipynb](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/5.Recency-Frequency-Monetary-RFM-Analysis.ipynb)
+- [DQA and Data Cleaning CustomerDemographic.ipynb](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/2.Customer_Demography_Data_Cleaning_and_Data_Quality_Assessment.ipynb)
+- [DQA and Data Cleaning NewCustomerList.ipynb](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/3.New_Customer_List_Data_Cleaning_DQA.ipynb)
+- [DQA and Data Cleaning Transactions.ipynb](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/4.Transactions_Data_Cleaning_DQA.ipynb)
+- [DQA and Data Cleaning Customer Address.ipynb](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/1.Customer_Address_Data_Cleaning_and_Quality_Assessment.ipynb)
 
 ## Analysis Approach
 
@@ -84,23 +79,19 @@ Customer segmentation was performed using an RFM Model, resulting in 11 groups:
 - Becoming Loyal
 - Almost Lost Customers
 
-The current distribution of customer segments is displayed below:
-
-![Customer Segment Distribution](data%20visualization/Customer%20Segment%20Distribution.PNG)
-
 ### 4. RFM Analysis: Scatter Plots
 
 #### Recency vs Monetary:
 
 Recent customers have purchased more products and generated more revenue compared to customers who visited a while ago.
 
-![Recency vs Monetary](data%20visualization/Recency%20vs%20Monetary.PNG)
+![Recency vs Monetary](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/Data-Visualization/recency_vs_monetary_scatter.png)
 
 #### Frequency vs Monetary:
 
 Customers in Platinum, Very Loyal, and Becoming Loyal segments have higher frequency and generate more monetary value.
 
-![Frequency vs Monetary](data%20visualization/Frequency%20vs%20Monetary.PNG)
+![Frequency vs Monetary](https://nbviewer.org/github/sudheerpulapa/Customer-Segmentation-Analysis-/blob/main/Data-Visualization/frequency_vs_monetary_scatter.png)
 
 ## Datasets Used
 
@@ -117,7 +108,6 @@ The datasets used in this project include:
 The tools used in this project include:
 
 - **Python 3.11.4:** Used for Data Quality Assessment and Data Cleaning processes, leveraging libraries such as pandas, matplotlib, and seaborn.
-- **Tableau:** A Business Intelligence tool employed to explore data and create charts, graphs, and visualizations, resulting in a Sales Dashboard for Customer Segmentation for the automobile bike company.
 
 ## Authors
 

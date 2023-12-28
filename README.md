@@ -111,4 +111,4 @@ The tools used in this project include:
 
 ## Authors
 
-- Pulapa Sudheer Chowdary - [GitHub Profile](https://github.com/dashboard)
+- Pulapa Sudheer Chowdary - [GitHub Profile](https://github.com/sudheerpulapa/Customer-Segmentation-Analysis-/tree/main)

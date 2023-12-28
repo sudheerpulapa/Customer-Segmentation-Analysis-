@@ -2,7 +2,7 @@
 
 ## Goal of the Project
 
-The aim of this project is to perform a Customer Segmentation Analysis for an Automobile bike Company using an RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach that groups customers into segments based on their previous purchase transactions. The project involves dividing the customer segment into 11 groups to determine which segments should be targeted to enhance sales revenue. A **Sales Dashboard for Customer Segmentation** has been developed using **Tableau**, and data quality assessment and analysis are conducted using **Python**.
+The aim of this project is to perform a Customer Segmentation Analysis for an Automobile bike Company using an RFM Model. RFM (Recency, Frequency, Monetary) analysis is a behavior-based approach that groups customers into segments based on their previous purchase transactions. The project involves dividing the customer segment into 11 groups to determine which segments should be targeted to enhance sales revenue.
 
 **Note**: In case of difficulty loading Jupyter Notebooks on GitHub, you can view the notebooks on nbviewer by clicking on the respective hyperlinks.
 
